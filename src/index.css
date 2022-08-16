@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+ background-color: azure;
+
+}
+
+
+
+@layer base{
+  li {
+    @apply p-4 text-sm text-xl font-bold 
+
+    
+  }
+}
